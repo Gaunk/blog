@@ -6,35 +6,30 @@ function Portfolio() {
 	return (
 		<>
 			<Head>
-			  <title>Portfolio</title>
+				<title>Portfolio</title>
 			</Head>
 
 			<Navbar />
 
 			<section className="hero">
-			  <div className="container">
-			    <div className="text-wrapper w-full">
-			      <h1 className="title">Portfolio</h1>
-			      <p className="description">
-			      	Incididunt in cillum magna occaecat nisi qui in.
-			      </p>
+				<div className="container">
+					<div className="text-wrapper w-full">
+						<div className="portfolio-wrapper">
+							<div className="portfolio-item">
+								<img src="/leafhea.png" className="portfolio-image" />
 
-			      <div className="portfolio-wrapper">
-			      	<div className="portfolio-item">
-			      		<img src="/chitchat.png" className="portfolio-image" />
+								<h4 className="portfolio-name"><Link href="//www.leafhea-indonesia.com/"><a>Leafhea Indonesia</a></Link></h4>
+								<div className="portfolio-category">Website Sabun Kecantikan</div>
+							</div>
+							<div className="portfolio-item">
+								<img src="/kabarcipatat.png" className="portfolio-image" />
 
-			      		<h4 className="portfolio-name">Chat App Exploration</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      	<div className="portfolio-item">
-			      		<img src="/kajian.jpg" className="portfolio-image" />
-
-			      		<h4 className="portfolio-name">kajian App</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      </div>
-		      </div>
-	      </div>
+								<h4 className="portfolio-name"><Link href="//www.kabarcipatat.my.id/"><a>Kabar Cipatat</a></Link></h4>
+								<div className="portfolio-category">Website Portal Berita</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</>
 	);
